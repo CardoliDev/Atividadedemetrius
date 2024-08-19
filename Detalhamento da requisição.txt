@@ -1,0 +1,7 @@
+Detalhamento da Requisição
+Linha de Requisição: Especifica o método (POST), o caminho (/enviar-personagem), e a versão do protocolo (HTTP/1.0).
+Headers:
+Host: Define o host para o qual a requisição está sendo feita (ex.: www.exemplo.com).
+Content-Type: Especifica o tipo de conteúdo sendo enviado. Neste caso, é application/x-www-form-urlencoded, que é o padrão para formulários web.
+Content-Length: Define o tamanho do corpo da requisição em bytes. Neste exemplo, o tamanho é 103 bytes.
+Corpo da Requisição: Contém os dados do formulário codificados no formato URL. Aqui, estamos simulando o envio de dados para criar um personagem com o nome "Aragorn", classe "Guerreiro", raça "Humano", habilidades "Combate", histórico "Rei de Gondor", e descrição "Líder nato".

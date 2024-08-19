@@ -1,0 +1,6 @@
+POST /enviar-personagem HTTP/1.0
+Host: www.exemplo.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 103
+
+nome=Aragorn&classe=Guerreiro&raca=Humano&habilidades=Combate&historico=Rei%20de%20Gondor&descricao=L%C3%ADder%20nato

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Personagens</title>
+</head>
+<body>
+
+    <img src="imagens/banner.jpg" alt="Banner">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="assets/OIG2.jpg" alt="logo">
+                </span>
+                <div class="text header-text">
+                    <span class="name">atividade</span>
+                    <span class="profession"></span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt icon'></i>
+                    <input type="text" placeholder="Pesquise...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home icon'></i>
+                            <span class="text nav-text">Início</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="personagem.html">
+                            <i class='bx bx-user icon'></i>
+                            <span class="text nav-text">Personagem</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="campanha.html">
+                            <i class='bx bx-world icon'></i>
+                            <span class="text nav-text">Campanha</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="notificacoes.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notificações</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Sair</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="home">
+        <div class="text">Criação de Personagem RPG</div>
+        
+        <!-- Formulário de Criação de Personagem RPG -->
+        <div class="form-container">
+            <h1 class="text" id="titulorpg">Criação de Personagem RPG</h1>
+            <form id="formPersonagem">
+                <div class="form-group">
+                    <label class="form-label" for="nome">Nome do Personagem</label>
+                    <input class="form-input" type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="classe">Classe</label>
+                    <input class="form-input" type="text" id="classe" name="classe" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="raca">Raça</label>
+                    <input class="form-input" type="text" id="raca" name="raca" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="habilidades">Habilidades</label>
+                    <textarea class="form-input" id="habilidades" name="habilidades" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="historico">Histórico</label>
+                    <textarea class="form-input" id="historico" name="historico" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="descricao">Descrição</label>
+                    <textarea class="form-input" id="descricao" name="descricao" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="form-button" type="submit">Criar Personagem</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
